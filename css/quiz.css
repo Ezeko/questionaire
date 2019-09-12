@@ -37,8 +37,17 @@ div{
     padding: 15%;
     
 }
+/*tablet display*/
+@media (min-width:720px){
+    div{
+        background-color: rgb(241, 247, 250);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        padding: 6%;
+        
+    }
+}
 /*desktop display*/
-@media (min-width:1000px){
+@media (min-width:1200px){
     div{
         background-color: rgb(241, 247, 250);
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
