@@ -1,0 +1,63 @@
+body{
+    background-color:   rgb(17, 17, 17);
+    color: rgb(148, 148, 147);
+    text-align: justify;
+    font-size: 180%;
+}
+
+#header{
+    text-align: center;
+    color: aquamarine;
+}
+#quizButton{
+    text-align: center;
+    margin-bottom: 2%;
+}
+button{
+    text-align: center;
+    width:60%;
+    font-size: 180%;
+}
+
+footer{
+    text-align: center;
+    color: beige;
+    background-color: rgb(58, 59, 59);
+    padding-top: 4%;
+    padding-bottom: 4%
+}
+
+ol{
+    text-align: justify;
+}
+
+div{
+    background-color: rgb(241, 247, 250);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 15%;
+    
+}
+/*desktop display*/
+@media (min-width:1000px){
+    div{
+        background-color: rgb(241, 247, 250);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        padding: 4%;
+        
+    }
+}
+
+input[type='text'],[type='email']{
+    width: 90%;
+    height: 40px;
+    font-size: 150%;
+    margin-bottom: 1%;
+}
+input[type='submit']{
+    height: 40px;
+    font-size: 80%;
+    width: 30%;
+    background-color: lightgreen;
+    color: lemonchiffon;
+    margin-bottom: 5%;
+}
