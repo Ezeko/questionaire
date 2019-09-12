@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <!-- meta viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta description for SEO optimization-->
+    <meta name="description" content="">
+    <!--meta keywords for SEO optimization-->
+    <meta name="keywords" content="">
+
+    <!--page title-->
+    <title>GV :: QUIZ</title>
+
+    <!--adding tab icon image-->
+    <link rel="icon" type="image/png" href="Your icon image url here">
+    <!--Linked to css file in css folder-->
+    <link rel="stylesheet" href="css/quiz.css">
+    </head>
+    <body id="quizBody">
+        <form action="quizHandler.php" method="POST">
+        <ol>
+            <div>
+            <li> Átlagban mennyit alszik naponta? </li>
+                    <input type="radio" name="Question1" value="7-8 órát" required> 7-8 órát <br>
+                     <input type="radio" name="Question1" value="kevesebb, mint 6 órát" required> kevesebb, mint 6 órát	<br>
+                     <input type="radio" name="Question1" value="4-6 órát, néha többet és rendszertelenül" required> 4-6 órát, néha többet és rendszertelenül 
+                </div> <br />
+            <div>
+            <li>Jól alszik?</li>
+                <input type="radio" name="Question2" value="napközben is hajlamos vagyok elaludni" required> napközben is hajlamos vagyok elaludni<br>
+                <input type="radio" name="Question2" value="este könnyen és jól alszom" required> este könnyen és jól alszom<br>
+                <input type="radio" name="Question2" value="sokszor vagyok álmatlan " required>  sokszor vagyok álmatlan
+            
+                </div> <br />
+                <div>
+            <li> Szed-e altatót vagy nyugtatót?</li>
+                <input type="radio" name="Question3" value="nem" required> nem<br>
+                <input type="radio" name="Question3" value="alkalmanként" required> alkalmanként<br>
+                <input type="radio" name="Question3" value="rendszeresen " required>  rendszeresen
+              
+                </div> <br />
+            <div>
+            <li>Vissza tud-e pontosan emlékezni az első szerelmének arcára?</li>
+                <input type="radio" name="Question4" value="minden részletében" required> minden részletében<br>
+                <input type="radio" name="Question4" value="nagyjából" required> nagyjából<br>
+                <input type="radio" name="Question4" value="homályosan" required> homályosan<br>
+                <input type="radio" name="Question4" value="egyáltalán nem" required> egyáltalán nem
+                    </div> <br />
+            <div>
+            <li>Képes vagyok fejben összeadni...</li>
+                <input type="radio" name="Question5" value="egyjegyű számokat" required> egyjegyű számokat<br>
+                <input type="radio" name="Question5" value="kétjegyű számokat" required> kétjegyű számokat<br>
+                <input type="radio" name="Question5" value="három- vagy többjegyű számokat" required> három- vagy többjegyű számokat
+                    </div> <br />
+            <div>
+            <li>Otthon vagy munkában gyakran elvándorol a figyelmem a nehéz vagy unalmas feladatokról</li>
+                <input type="radio" name="Question6" value="nem" required> nem<br>
+                <input type="radio" name="Question6" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question6" value="időnként" required> időnként<br>
+                <input type="radio" name="Question6" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question6" value="állandóan" required> állandóan
+                    </div> <br />
+            
+            <div>
+            <li> Kapkodok, felborítok tárgyakat</li>
+                <input type="radio" name="Question7" value="nem" required> nem<br>
+                <input type="radio" name="Question7" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question7" value="időnként" required> időnként<br>
+                <input type="radio" name="Question7" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question7" value="állandóan" required> állandóan
+                    </div> <br />
+
+            <div>
+            <li>Jól meg tudom becsülni a feladatok végrehajtási idejét és pontosan el is kezdem</li>
+                <input type="radio" name="Question8" value="nem" required> nem<br>
+                <input type="radio" name="Question8" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question8" value="időnként" required> időnként<br>
+                <input type="radio" name="Question8" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question8" value="mindig" required> mindig
+                    </div> <br />
+
+            <div>
+            <li> Kisebb bosszúságoktól is könnyen kiborulok</li>
+                <input type="radio" name="Question9" value="nem" required> nem<br>
+                <input type="radio" name="Question9" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question9" value="időnként" required> időnként<br>
+                <input type="radio" name="Question9" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question9" value="állandóan" required> állandóan
+                    </div> <br />
+            <div>
+            <li>Gondolkodás nélkül kimondom, amit később megbánok</li>
+                <input type="radio" name="Question10" value="nem" required> nem<br>
+                <input type="radio" name="Question10" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question10" value="időnként" required> időnként<br>
+                <input type="radio" name="Question10" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question10" value="mindig" required> mindig
+                    </div> <br />
+            <div>
+            <li> Órákon keresztül tudok türelmet igénylő, aprólékos munkát végezni
+                </li>
+                    <input type="radio" name="Question11" value="nem" required> nem<br>
+                    <input type="radio" name="Question11" value="ritkán" required> ritkán<br>
+                    <input type="radio" name="Question11" value="időnként" required> időnként<br>
+                    <input type="radio" name="Question11" value="gyakran" required> gyakran<br>
+                    <input type="radio" name="Question11" value="mindig" required> mindig
+
+                    </div> <br />
+
+            <div>
+            <li>Elszabadulnak a fantáziálásaim</li>
+                <input type="radio" name="Question12" value="nem" required> nem<br>
+                <input type="radio" name="Question12" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question12" value="időnként" required> időnként<br>
+                <input type="radio" name="Question12" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question12" value="állandóan" required> állandóan
+
+                </div> <br />
+
+            <div>
+            <li> Kitartóan tudok folyamatosan olvasni</li>
+                <input type="radio" name="Question13" value="nem" required> nem<br>
+                <input type="radio" name="Question13" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question13" value="időnként" required> időnként<br>
+                <input type="radio" name="Question13" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question13" value="mindig" required> mindig
+
+                </div> <br />
+
+            <div>
+            <li>Képes vagyok a tennivalóimat lépések sorozatában megtervezni</li>
+                <input type="radio" name="Question14" value="nem" required> nem<br>
+                <input type="radio" name="Question14" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question14" value="időnként" required> időnként<br>
+                <input type="radio" name="Question14" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question14" value="mindig" required> mindig
+
+                </div> <br />
+            <div>
+            <li> A hangulatom hullámzó</li>
+                <input type="radio" name="Question15" value="nem" required> nem<br>
+                <input type="radio" name="Question15" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question15" value="időnként" required> időnként<br>
+                <input type="radio" name="Question15" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question15" value="mindig" required> mindig
+
+                </div> <br />
+            <div>
+            <li>Tiszták és rendezettek a gondolataim  </li>
+                <input type="radio" name="Question16" value="nem" required> nem<br>
+                <input type="radio" name="Question16" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question16" value="időnként" required> időnként<br>
+                <input type="radio" name="Question16" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question16" value="mindig" required> mindig
+
+                </div><br />
+            <div>
+            <li>Gyorsan döntök és figyelmen kívül hagyom a következményeket   </li>
+                <input type="radio" name="Question17" value="nem" required> nem<br>
+                <input type="radio" name="Question17" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question17" value="időnként" required> időnként<br>
+                <input type="radio" name="Question17" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question17" value="mindig" required> mindig
+
+                </div><br />
+            <div>
+            <li>Az álmaim részleteire emlékezni szoktam</li>
+                <input type="radio" name="Question18" value="nem" required> nem<br>
+                <input type="radio" name="Question18" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question18" value="időnként" required> időnként<br>
+                <input type="radio" name="Question18" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question18" value="mindig" required> mindig
+
+                </div> <br />
+            <div>
+            <li>A beszélgetésekre (akár társaságban is) végig oda tudok figyelni  </li>
+                <input type="radio" name="Question19" value="nem" required> nem<br>
+                <input type="radio" name="Question19" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question19" value="időnként" required> időnként<br>
+                <input type="radio" name="Question19" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question19" value="mindig" required> mindig
+
+                </div> <br />
+            <div>
+            <li>Olyan az agyam, mint egy tévé, amin egyszerre megy az összes csatorna    </li>
+                <input type="radio" name="Question20" value="nem" required> nem<br>
+                <input type="radio" name="Question20" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question20" value="időnként" required> időnként<br>
+                <input type="radio" name="Question20" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question20" value="állandóan" required> állandóan
+            
+                </div> <br />
+            <div>
+            <li>Ha már jártam valahol, emlékszem az odavezető útvonalra is</li>
+                <input type="radio" name="Question21" value="nem" required> nem<br>
+                <input type="radio" name="Question21" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question21" value="időnként" required> időnként<br>
+                <input type="radio" name="Question21" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question21" value="mindig" required> mindig
+            
+                </div> <br />
+            <div>
+            <li>Elfelejtem, hogy hová is tettem le bizonyos tárgyakat</li>
+                    <input type="radio" name="Question22" value="nem" required> nem<br>
+                    <input type="radio" name="Question22" value="ritkán" required> ritkán<br>
+                    <input type="radio" name="Question22" value="időnként" required> időnként<br>
+                    <input type="radio" name="Question22" value="gyakran" required> gyakran<br>
+                    <input type="radio" name="Question22" value="mindig" required> mindig
+            
+                </div> <br />
+            <div>
+            <li>Nyugodtan, türelmesen tudok egy helyben ülni vagy állni</li>
+                <input type="radio" name="Question23" value="nem" required> nem<br>
+                <input type="radio" name="Question23" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question23" value="időnként" required> időnként<br>
+                <input type="radio" name="Question23" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question23" value="mindig" required> mindig
+                </div> <br />
+            <div>
+            <li>Megesik, hogy be se fejezik a kérdést, már kezdek rá válaszolni</li>
+                <input type="radio" name="Question24" value="nem" required> nem<br>
+                <input type="radio" name="Question24" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question24" value="időnként" required> időnként<br>
+                <input type="radio" name="Question24" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question24" value="mindig" required> mindig
+                </div> <br />
+            <div>
+            <li>Ha elfáradok, képes vagyok legalább egy-két percre kikapcsolni a gondolataimat</li>
+                <input type="radio" name="Question25" value="nem" required> nem<br>
+                <input type="radio" name="Question25" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question25" value="időnként" required> időnként<br>
+                <input type="radio" name="Question25" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question25" value="mindig" required> mindig
+                </div> <br />
+            <div>
+            <li>Csoportos tevékenységnél nehezem várom ki, hogy rám kerüljön a sor</li>
+                <input type="radio" name="Question26" value="nem" required> nem<br>
+                <input type="radio" name="Question26" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question26" value="időnként" required> időnként<br>
+                <input type="radio" name="Question26" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question26" value="mindig" required> mindig
+                </div> <br />
+            <div>
+            <li>Egyszerre több dologba is belekezdek és egy részüket befejezetlenül hagyom</li>
+                <input type="radio" name="Question27" value="nem" required> nem<br>
+                <input type="radio" name="Question27" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question27" value="időnként" required> időnként<br>
+                <input type="radio" name="Question27" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question27" value="mindig" required> mindig
+                </div> <br />
+            <div>
+            <li>Nevek, címek, események azonnal beugranak</li>
+                <input type="radio" name="Question28" value="nem" required> nem<br>
+                <input type="radio" name="Question28" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question28" value="időnként" required> időnként<br>
+                <input type="radio" name="Question28" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question28" value="mindig" required> mindig
+                </div> <br />
+            <div>
+            <li>Ha éppen ülök, akkor is mozgatom a kezem vagy a lábam</li>
+                <input type="radio" name="Question29" value="nem" required> nem<br>
+                <input type="radio" name="Question29" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question29" value="időnként" required> időnként<br>
+                <input type="radio" name="Question29" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question29" value="mindig" required> mindig
+                </div> <br />
+            <div>
+            <li>Csaponganak a gondolataim, nehezen tudok egy dologra figyelni</li>
+                <input type="radio" name="Question30" value="nem" required> nem<br>
+                <input type="radio" name="Question30" value="ritkán" required> ritkán<br>
+                <input type="radio" name="Question30" value="időnként" required> időnként<br>
+                <input type="radio" name="Question30" value="gyakran" required> gyakran<br>
+                <input type="radio" name="Question30" value="állandóan" required> állandóan
+                </div> <br />
+            <div>
+            <li>Végez-e rendszeresen meditációs vagy relaxációs gyakorlatot (alkalmanként legalább 7-10 percben)?</li>
+                <input type="radio" name="Question31" value="1-2 naponta" required> 1-2 naponta<br>
+                <input type="radio" name="Question31" value="kb. hetente" required> kb. hetente<br>
+                <input type="radio" name="Question31" value="havonta 1-2 alkalomma" required> havonta 1-2 alkalomma<br>
+                <input type="radio" name="Question31" value="ritkábban vagy soha" required> ritkábban vagy soha
+            </div> <br />
+            <div>
+            <li>Mennyi ideje meditál vagy relaxál rendszeresen?</li>
+                    <input type="radio" name="Question32" value="még egy éve sem" required> még egy éve sem	 <br>
+                    <input type="radio" name="Question32" value="2-3 éve" required> 2-3 éve	 <br>
+                    <input type="radio" name="Question32" value="legalább 5 éve	" required> legalább 5 éve	 <br>
+                     <input type="radio" name="Question32" value="több, mint 10 éve" required> több, mint 10 éve	 <br>
+                     <input type="radio" value="még nem csináltam" required> még nem csináltam 
+                </div> <br />
+
+                <span>
+                    <input type="text" name="userName" placeholder="Input Your Name..." required> <br />
+                    <input type="email" name="email" placeholder="Input Your Email..." required> <br />
+                    <input type="submit" value="SUBMIT QUIZ">
+                </span>
+
+        </ol>
+        
+    </form>
+    </body>
+    <footer>
+        <span id="footerText">All rights reserved nameOfSite &copy 2019</span>
+    </footer>
+</html>
