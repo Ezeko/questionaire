@@ -489,14 +489,15 @@ $query = mysqli_query($conn, $sql) or die(mysqli_error($conn));
 
 if($query === true){
 //echo ("Hi $name, Your Score is $score");
-if($score ==0 && $score =<150){
+if($score ==0 && $score <=150){
     echo  ("Hi $name, Your Score is $score <br> jelentős kiegyensúlyozatlanság, koncentrációs problémák, zaklatottság: a stressz szintjének csökkentése ajánlott, főként relaxációs alapgyakorlatokkal");
-}else if($score > 150 && $score =<210){
+}else if($score > 150 && $score <=210){
     echo ("Hi $name, Your score is $score <br> átlagos stressz, időnként figyelmi problémák, enyhe zaklatottság: relaxációs alapgyakorlatok és csukottszemes biofeedback ajánlott");
-}else if ($score >210 && =< 270){
+}else if ($score >210 && $score<= 270){
     echo("Hi $name, Your score is $score <br> jó összpontosítási és ellazulási képességek, átlagos kiegyensúlyozottság: koncentrációs gyakorlatok relaxációban, változatos biofeedback gyakorlatokkal javasolt");
 }else {
     echo("Hi $name, Your score is $score <br> kiváló összpontosítás és kiegyensúlyozott életvitel: a csukott- és nyitottszemes gyakorlatok teljes skálája ajánlott");
+}
 }
 
 
